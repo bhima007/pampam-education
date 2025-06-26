@@ -47,10 +47,10 @@ function News() {
               src="https://www.dummyimg.in/placeholder"
               alt="Sunset in the mountains"
             /> */}
-            <div class="flex flex-col gap-2 px-6 py-4">
+            <div className="flex flex-col gap-2 px-6 py-4">
               <span className="text-xs text-gray-500">TEMPO</span>
-              <span class="font-bold text-xl">{item?.title}</span>
-              <span class="text-gray-700 text-base">{item.content}</span>
+              <span className="font-bold text-xl">{item?.title}</span>
+              <span className="text-gray-700 text-base">{item.content}</span>
               <span className="text-xs text-gray-500">{moment(item.isoDate).format("DD MMM YYYY")}</span>
             </div>
           </div>
