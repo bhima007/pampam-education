@@ -17,7 +17,7 @@ const categories = [
   { key: "remaja", label: "Remaja", sub: "10-18 tahun", icon: icons.remaja },
   { key: "dewasa", label: "Dewasa", sub: "19-59 tahun", icon: icons.dewasa },
   { key: "lansia", label: "Lansia", sub: "60+ tahun", icon: icons.lansia },
-  { key: "blog", label: "Blog", icon: icons.blog },
+  { key: "berita", label: "Berita", icon: icons.blog },
 ];
 
 const Category = ({ selectedCategory, onCategoryClick }) => {

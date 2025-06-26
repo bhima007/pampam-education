@@ -1,6 +1,7 @@
 import Baby from "./Baby";
 import Child from "./Child";
 import Mature from "./Mature";
+import News from "./News";
 import Old from "./Old";
 import Teenager from "./Teenager";
 
@@ -19,6 +20,8 @@ export default function Content({ selectedCategory }) {
         return <Mature />;
       case "lansia":
         return <Old />;
+      case "berita":
+        return <News />;
       default:
         break;
     }

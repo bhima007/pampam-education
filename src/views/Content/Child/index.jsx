@@ -1,20 +1,97 @@
-const photos = [
-  "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=600&q=80",
-  "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=600&q=80",
-  "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=600&q=80",
-];
+import gambar1 from '../../../assets/home/child/1.png';
+import gambar2 from '../../../assets/home/child/2.png';
+import gambar3 from '../../../assets/home/child/3.png';
+
+const photos = [gambar1, gambar2, gambar3];
 const title = "Pentingnya Makanan Sehat untuk Anak-anak";
 const date = "10 Juni 2024";
 const longText = `
-Masa Bayi Balita adalah masa setelah dilahirkan sampai sebelum berumur 59 bulan, terdiri dari bayi baru lahir usia 0-28 hari, bayi usia 0-11 bulan dan anak balita usia 12 - 59 bulan. Kesehatan bayi dan balita sangat penting diperhatikan karena pada masa ini pertumbuhan dan perkembangan fisik serta mentalnya sangat cepat. Upaya Kesehatan bayi dan balita meliputi tata laksana dan rujukan, gizi, pemantauan pertumbuhan dan perkembangan, imunisasi, rehabilitasi dan perawatan jangka panjang pada penyakit kronis/langka, pola asuh dan stimulasi perkembangan, serta penyediaan lingkungan yang sehat dan aman. 
+  <h2>Masa Emas Anak Usia 5-9 Tahun</h2>
+  <p>
+    Masa usia 5 hingga 9 tahun merupakan masa emas bagi pertumbuhan dan perkembangan anak. 
+    Pada rentang usia ini, anak mengalami peningkatan aktivitas fisik, perkembangan kognitif yang pesat, 
+    serta mulai membentuk kebiasaan makan yang akan terbawa hingga dewasa. Oleh karena itu, penting untuk memastikan 
+    anak mendapatkan asupan makanan yang sehat, bergizi, dan seimbang setiap harinya.
+  </p>
 
-Selain upaya kesehatan tersebut, pada bayi,  kesehatan yang perlu diperhatikan adalah pencegahan infeksi, pelayanan neonatal esensial, pemberian makan bayi dan anak, skrining bayi baru lahir, perawatan BBLR, dan gizi bagi ibu menyusui hingga skiring pada balita. Kesehatan bayi dan balita sangat dipengaruhi oleh asupan makanan dan nutrisi yang cukup serta perawatan yang baik. Bayi dan balita yang sehat ditandai dengan berat badan, tinggi badan, dan lingkar kepala yang sesuai dengan usianya.
+  <h2>Peran Makanan Sehat dalam Tumbuh Kembang Anak</h2>
+  <p>
+    Makanan sehat memiliki peran krusial dalam memastikan anak-anak tumbuh dan berkembang secara optimal, 
+    baik secara fisik, kognitif, maupun emosional. Asupan makanan yang seimbang membantu memastikan bahwa:
+  </p>
+  <ul>
+    <li>Organ tubuh berkembang dengan sempurna, termasuk otak, jantung, paru-paru, dan sistem pencernaan.</li>
+    <li>Sistem imun bekerja optimal, sehingga anak tidak mudah terserang penyakit seperti flu, diare, atau infeksi.</li>
+    <li>Fungsi otak berjalan baik, menunjang kemampuan belajar, konsentrasi, dan memori di sekolah.</li>
+    <li>Stamina dan energi cukup, untuk mendukung aktivitas bermain, belajar, dan eksplorasi lingkungan.</li>
+  </ul>
+  <p>
+    Tanpa makanan bernutrisi, anak-anak akan kesulitan menjalani hari-hari mereka secara produktif dan ceria.
+  </p>
 
-Pada masa bayi, kesehatan sangat ditentukan oleh nutrisi yang diberikan oleh ibu melalui ASI. Oleh karena itu, penting bagi ibu untuk memberikan ASI eksklusif selama 6 bulan pertama kehidupan bayi, kemudian dilanjutkan dengan MPASI yang sehat dan bergizi. Perawatan bayi juga perlu diperhatikan, seperti perawatan kulit, sanitasi dan kebersihan, serta vaksinasi untuk melindungi bayi dari penyakit. Sedangkan pada masa balita, selain nutrisi yang baik, juga perlu diperhatikan kegiatan fisik dan stimulasi yang dapat membantu perkembangan otak dan keterampilan sosial.
+  <h2>Komponen Penting dalam Makanan Sehat Anak</h2>
+  <ul>
+    <li>
+      <strong>Karbohidrat kompleks:</strong> nasi merah, kentang rebus, roti gandum, jagung, ubi.
+    </li>
+    <li>
+      <strong>Protein berkualitas tinggi:</strong>
+      <ul>
+        <li>Hewani: ayam, daging sapi tanpa lemak, ikan, telur, susu.</li>
+        <li>Nabati: tahu, tempe, kacang-kacangan, edamame.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Lemak sehat:</strong> alpukat, minyak zaitun, kacang-kacangan, ikan berlemak seperti salmon.
+    </li>
+    <li>
+      <strong>Vitamin dan mineral:</strong>
+      <ul>
+        <li>Vitamin A untuk penglihatan dan imun</li>
+        <li>Vitamin D dan kalsium untuk tulang</li>
+        <li>Zat besi untuk mencegah anemia</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Serat dan antioksidan:</strong> buah-buahan berwarna (pisang, jeruk, apel, pepaya), 
+      sayuran hijau (bayam, brokoli, wortel, kangkung).
+    </li>
+    <li>
+      <strong>Air putih:</strong> minuman terbaik bagi anak. Hindari soda dan teh manis.
+    </li>
+  </ul>
+  <p>
+    Pola makan sehat: 3 kali makan utama dan 2 kali camilan sehat per hari.
+  </p>
 
-Kegiatan fisik yang tepat dapat membantu pertumbuhan dan perkembangan otot serta tulang pada anak. Selain itu, orangtua juga perlu memberikan stimulasi pada anak, seperti membaca cerita dan bermain, untuk membantu meningkatkan keterampilan bahasa, sosial, dan kognitif. Kesehatan bayi dan balita dapat dilihat dari berat badan, tinggi badan, lingkar kepala, serta aktivitas dan respons yang sesuai dengan usianya. Jika ada keluhan atau tanda-tanda tidak sehat pada bayi atau balita, segera konsultasikan ke dokter atau fasilitas kesehatan terdekat.
+  <h2>Dampak Kurangnya Asupan Gizi Seimbang</h2>
+  <ul>
+    <li>Pertumbuhan terhambat (stunting)</li>
+    <li>Kelebihan berat badan atau obesitas</li>
+    <li>Anemia</li>
+    <li>Gigi berlubang</li>
+    <li>Menurunnya prestasi belajar</li>
+    <li>Masalah perilaku dan emosi</li>
+  </ul>
 
+  <h2>Membentuk Pola Makan Sehat Sejak Dini</h2>
+  <ul>
+    <li>Menjadi teladan dalam memilih makanan sehat</li>
+    <li>Makan bersama di meja makan</li>
+    <li>Libatkan anak dalam menyiapkan makanan</li>
+    <li>Hindari memaksa atau menghukum saat makan</li>
+    <li>Batasi makanan olahan dan camilan tidak sehat</li>
+    <li>Jadwalkan waktu makan secara teratur</li>
+  </ul>
 
+  <h2>Pemantauan dan Konsultasi</h2>
+  <ul>
+    <li>Pengukuran berat dan tinggi badan secara berkala</li>
+    <li>Pemeriksaan lingkar lengan atas jika dicurigai kurang gizi</li>
+    <li>Evaluasi pola makan harian anak</li>
+    <li>Observasi perkembangan motorik dan kognitif</li>
+    <li>Konsultasi ke dokter anak, ahli gizi, atau puskesmas jika diperlukan</li>
+  </ul>
 `;
 
 export default function Child() {
@@ -33,9 +110,8 @@ export default function Child() {
       {/* Video */}
       <div className="flex justify-center" style={{ marginBottom: 24 }}>
         <iframe
-          width="100%"
-          height="400"
-          style={{ maxWidth: 800 }}
+          width="656"
+          height="369"
           src="https://www.youtube.com/embed/knwuEedQ--4"
           title="5 Sumber Makanan Sehat untuk Anak"
           frameborder="0"
@@ -50,6 +126,7 @@ export default function Child() {
         style={{
           display: "flex",
           justifyContent: "center",
+          alignItems: "center",
           gap: 16,
           marginBottom: 24,
           flexWrap: "wrap",
@@ -62,7 +139,7 @@ export default function Child() {
             alt={`Makanan sehat ${idx + 1}`}
             style={{
               width: 200,
-              height: 140,
+              height: "100%",
               objectFit: "cover",
               borderRadius: 8,
             }}
@@ -71,17 +148,10 @@ export default function Child() {
       </div>
 
       {/* Text */}
-      <div style={{ fontSize: 18, lineHeight: 1.5, color: "#333" }}>
-        {longText.split("\n").map((p, i) =>
-          p.trim() ? (
-            <p key={i}>
-              {p.trim()}
-              <br />
-              <br />
-            </p>
-          ) : null
-        )}
-      </div>
+      <div
+        className="content"
+        dangerouslySetInnerHTML={{ __html: longText }}
+      ></div>
     </div>
   );
 }

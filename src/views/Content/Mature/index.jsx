@@ -1,20 +1,108 @@
-const photos = [
-  "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=600&q=80",
-  "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=600&q=80",
-  "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=600&q=80",
-];
+import gambar1 from '../../../assets/home/mature/1.png';
+import gambar2 from '../../../assets/home/mature/2.png';
+import gambar3 from '../../../assets/home/mature/3.png';
+
+const photos = [gambar1, gambar2, gambar3];
 const title = "Pentingnya Makanan Sehat untuk Orang Dewasa";
 const date = "10 Juni 2024";
 const longText = `
-Masa Bayi Balita adalah masa setelah dilahirkan sampai sebelum berumur 59 bulan, terdiri dari bayi baru lahir usia 0-28 hari, bayi usia 0-11 bulan dan anak balita usia 12 - 59 bulan. Kesehatan bayi dan balita sangat penting diperhatikan karena pada masa ini pertumbuhan dan perkembangan fisik serta mentalnya sangat cepat. Upaya Kesehatan bayi dan balita meliputi tata laksana dan rujukan, gizi, pemantauan pertumbuhan dan perkembangan, imunisasi, rehabilitasi dan perawatan jangka panjang pada penyakit kronis/langka, pola asuh dan stimulasi perkembangan, serta penyediaan lingkungan yang sehat dan aman. 
+  <h2>Pentingnya Makanan Sehat untuk Orang Dewasa (19–59 Tahun)</h2>
+  <p>
+    Usia 19–59 tahun merupakan masa produktif dalam kehidupan seseorang. Pada rentang usia ini, seseorang aktif bekerja, membangun keluarga, 
+    dan menjalani berbagai tanggung jawab sosial maupun pribadi. Untuk dapat menjalani peran tersebut dengan optimal, tubuh memerlukan energi 
+    yang cukup dan gizi seimbang. Maka dari itu, menjaga pola makan sehat sangat penting bagi orang dewasa untuk mendukung aktivitas sehari-hari, 
+    mencegah penyakit, serta menjaga kualitas hidup jangka panjang.
+  </p>
 
-Selain upaya kesehatan tersebut, pada bayi,  kesehatan yang perlu diperhatikan adalah pencegahan infeksi, pelayanan neonatal esensial, pemberian makan bayi dan anak, skrining bayi baru lahir, perawatan BBLR, dan gizi bagi ibu menyusui hingga skiring pada balita. Kesehatan bayi dan balita sangat dipengaruhi oleh asupan makanan dan nutrisi yang cukup serta perawatan yang baik. Bayi dan balita yang sehat ditandai dengan berat badan, tinggi badan, dan lingkar kepala yang sesuai dengan usianya.
+  <h2>Peran Makanan Sehat dalam Kehidupan Orang Dewasa</h2>
+  <p>
+    Makanan sehat tidak hanya sekadar memenuhi rasa lapar, tetapi juga berperan penting dalam menjaga fungsi organ tubuh, menstabilkan metabolisme, 
+    dan mencegah munculnya penyakit degeneratif seperti diabetes, hipertensi, kolesterol tinggi, dan penyakit jantung. Pola makan yang baik juga 
+    berkaitan erat dengan kesehatan mental, membantu mengelola stres, memperbaiki suasana hati, serta mendukung kualitas tidur yang baik.
+  </p>
+  <p>Pada masa ini, kebutuhan gizi harus disesuaikan dengan:</p>
+  <ul>
+    <li>Jenis kelamin dan aktivitas fisik,</li>
+    <li>Kondisi kesehatan, seperti kehamilan, menyusui, atau memiliki penyakit tertentu,</li>
+    <li>Pekerjaan dan gaya hidup,</li>
+    <li>Usia yang terus bertambah, di mana metabolisme mulai melambat seiring waktu.</li>
+  </ul>
+  <p>
+    Makanan sehat akan menjaga kebugaran tubuh, meningkatkan imunitas, dan membantu mempertahankan berat badan ideal yang berdampak langsung 
+    pada kualitas hidup.
+  </p>
 
-Pada masa bayi, kesehatan sangat ditentukan oleh nutrisi yang diberikan oleh ibu melalui ASI. Oleh karena itu, penting bagi ibu untuk memberikan ASI eksklusif selama 6 bulan pertama kehidupan bayi, kemudian dilanjutkan dengan MPASI yang sehat dan bergizi. Perawatan bayi juga perlu diperhatikan, seperti perawatan kulit, sanitasi dan kebersihan, serta vaksinasi untuk melindungi bayi dari penyakit. Sedangkan pada masa balita, selain nutrisi yang baik, juga perlu diperhatikan kegiatan fisik dan stimulasi yang dapat membantu perkembangan otak dan keterampilan sosial.
+  <h2>Komponen Penting dalam Makanan Sehat Orang Dewasa</h2>
+  <p>Orang dewasa perlu memperhatikan keseimbangan antara asupan kalori dan pengeluaran energi. Makanan harian yang sehat dan seimbang sebaiknya mengandung:</p>
+  <ul>
+    <li>
+      <strong>Karbohidrat kompleks:</strong> 
+      sumber energi utama, sebaiknya berasal dari beras merah, roti gandum, oatmeal, jagung, dan umbi-umbian.
+    </li>
+    <li>
+      <strong>Protein berkualitas:</strong> 
+      dibutuhkan untuk memperbaiki sel dan menjaga massa otot. Sumber protein sehat: daging tanpa lemak, ikan, telur, susu, tahu, tempe, dan kacang-kacangan.
+    </li>
+    <li>
+      <strong>Lemak baik:</strong> 
+      lemak sehat penting untuk kesehatan jantung dan otak: minyak zaitun, alpukat, kacang-kacangan, ikan laut dalam seperti salmon atau tuna.
+    </li>
+    <li>
+      <strong>Serat:</strong> 
+      membantu melancarkan pencernaan dan menurunkan risiko penyakit jantung dan diabetes: sayuran hijau, buah segar, biji-bijian, dan sereal gandum.
+    </li>
+    <li>
+      <strong>Vitamin dan mineral:</strong> 
+      menjaga fungsi metabolisme tubuh: vitamin D, kalsium, magnesium, kalium, serta antioksidan seperti vitamin C dan E.
+    </li>
+    <li>
+      <strong>Air putih:</strong> 
+      orang dewasa disarankan minum 2–2,5 liter air per hari untuk mendukung hidrasi dan fungsi organ.
+    </li>
+  </ul>
+  <p>
+    Menghindari makanan olahan tinggi gula, garam, dan lemak jenuh sangat penting untuk menjaga kesehatan jangka panjang.
+  </p>
 
-Kegiatan fisik yang tepat dapat membantu pertumbuhan dan perkembangan otot serta tulang pada anak. Selain itu, orangtua juga perlu memberikan stimulasi pada anak, seperti membaca cerita dan bermain, untuk membantu meningkatkan keterampilan bahasa, sosial, dan kognitif. Kesehatan bayi dan balita dapat dilihat dari berat badan, tinggi badan, lingkar kepala, serta aktivitas dan respons yang sesuai dengan usianya. Jika ada keluhan atau tanda-tanda tidak sehat pada bayi atau balita, segera konsultasikan ke dokter atau fasilitas kesehatan terdekat.
+  <h2>Dampak Kurangnya Asupan Gizi Seimbang</h2>
+  <p>Pola makan yang tidak sehat pada orang dewasa bisa menimbulkan berbagai gangguan kesehatan yang serius, seperti:</p>
+  <ul>
+    <li>Kelebihan berat badan (obesitas) yang meningkatkan risiko penyakit jantung, stroke, dan diabetes tipe 2.</li>
+    <li>Kekurangan zat besi atau vitamin B12, yang menyebabkan kelelahan dan anemia.</li>
+    <li>Tulang keropos (osteopenia/osteoporosis) akibat kurang kalsium dan vitamin D.</li>
+    <li>Masalah pencernaan seperti sembelit atau asam lambung tinggi karena kurang serat.</li>
+    <li>Kolesterol tinggi, tekanan darah tinggi, hingga gangguan hati akibat pola makan tinggi lemak jenuh dan makanan cepat saji.</li>
+    <li>Penurunan produktivitas, konsentrasi, dan mood akibat kurangnya nutrisi otak dan energi.</li>
+  </ul>
+  <p>
+    Kebiasaan makan yang buruk di usia dewasa juga meningkatkan risiko penyakit kronis saat memasuki usia lanjut.
+  </p>
 
+  <h2>Membentuk Pola Makan Sehat Sejak Usia Produktif</h2>
+  <p>
+    Membentuk pola makan sehat tidak harus langsung drastis. Perubahan kecil yang konsisten akan memberikan dampak besar bagi kesehatan. 
+    Berikut beberapa langkah yang bisa dilakukan:
+  </p>
+  <ul>
+    <li>Sarapan setiap pagi untuk mengisi energi dan mencegah makan berlebihan di siang hari.</li>
+    <li>Mengatur porsi makan dengan konsep “Isi Piringku”: ½ piring sayur dan buah, ¼ piring protein, ¼ piring karbohidrat.</li>
+    <li>Mengurangi makanan siap saji dan gorengan, serta menggantinya dengan makanan yang dimasak sendiri.</li>
+    <li>Membaca label gizi pada kemasan untuk mengontrol asupan gula, garam, dan lemak.</li>
+    <li>Mengganti camilan tidak sehat (keripik, permen, kue manis) dengan buah segar, yogurt rendah lemak, atau kacang tanpa garam.</li>
+    <li>Menjadikan makan sebagai kegiatan yang sadar, bukan sekadar kebiasaan atau pelampiasan stres.</li>
+  </ul>
+  <p>
+    Selain itu, aktivitas fisik rutin seperti jalan kaki, senam, atau bersepeda setidaknya 30 menit sehari akan melengkapi gaya hidup sehat.
+  </p>
 
+  <h2>Pemantauan dan Konsultasi</h2>
+  <p>Untuk menjaga kesehatan jangka panjang, orang dewasa perlu melakukan pemantauan rutin terhadap kondisi tubuh, antara lain:</p>
+  <ul>
+    <li>Mengukur berat badan dan lingkar perut secara berkala untuk mencegah obesitas.</li>
+    <li>Melakukan pemeriksaan tekanan darah, kolesterol, dan gula darah setidaknya sekali setahun.</li>
+    <li>Berkonsultasi dengan ahli gizi atau dokter, terutama jika memiliki penyakit kronis atau dalam masa pemulihan.</li>
+    <li>Menyesuaikan pola makan dengan kondisi khusus, seperti kehamilan, menyusui, atau usia 40 tahun ke atas.</li>
+  </ul>
 `;
 
 export default function Mature() {
@@ -33,11 +121,10 @@ export default function Mature() {
       {/* Video */}
       <div className="flex justify-center" style={{ marginBottom: 24 }}>
         <iframe
-          width="100%"
-          height="400"
-          style={{ maxWidth: 800 }}
-          src="https://www.youtube.com/embed/knwuEedQ--4"
-          title="5 Sumber Makanan Sehat untuk Anak"
+          width="656"
+          height="369"
+          src="https://www.youtube.com/embed/RUwRI-6S2SY"
+          title="ISI PIRINGKU PORSI ORANG DEWASA"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
@@ -50,6 +137,7 @@ export default function Mature() {
         style={{
           display: "flex",
           justifyContent: "center",
+          alignItems: "center",
           gap: 16,
           marginBottom: 24,
           flexWrap: "wrap",
@@ -62,7 +150,7 @@ export default function Mature() {
             alt={`Makanan sehat ${idx + 1}`}
             style={{
               width: 200,
-              height: 140,
+              height: '100%',
               objectFit: "cover",
               borderRadius: 8,
             }}
@@ -71,17 +159,7 @@ export default function Mature() {
       </div>
 
       {/* Text */}
-      <div style={{ fontSize: 18, lineHeight: 1.5, color: "#333" }}>
-        {longText.split("\n").map((p, i) =>
-          p.trim() ? (
-            <p key={i}>
-              {p.trim()}
-              <br />
-              <br />
-            </p>
-          ) : null
-        )}
-      </div>
+      <div className="content" dangerouslySetInnerHTML={{ __html: longText }} />
     </div>
   );
 }

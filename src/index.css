@@ -1,4 +1,25 @@
 @import "tailwindcss";
+
+/* styles.css */
+.content h2 {
+  margin-top: 32px;
+  margin-bottom: 12px;
+  font-size: 24px;
+  color: #2b2b2b;
+}
+
+.content p {
+  margin-bottom: 16px;
+}
+
+.content ul {
+  padding-left: 20px;
+  margin-bottom: 16px;
+}
+
+.content li {
+  margin-bottom: 6px;
+}
 /* 
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;

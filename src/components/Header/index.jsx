@@ -5,9 +5,9 @@ const Header = () => {
     <header style={styles.header}>
       <div style={styles.title}>PAMPAM EDUCATION</div>
       <nav style={styles.nav}>
-        <a href="/" style={styles.link}>Beranda</a>
-        <FaSearch style={styles.icon} />
-        <FaUserCircle style={styles.icon} />
+        {/* <a href="/" style={styles.link}>Beranda</a> */}
+        {/* <FaSearch style={styles.icon} /> */}
+        {/* <FaUserCircle style={styles.icon} /> */}
       </nav>
     </header>
   );
